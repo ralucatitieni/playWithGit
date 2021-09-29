@@ -6,6 +6,8 @@ import java.time.LocalDate;
 
 @Component
 public class SomeClass1 {
+  
+int someVariable1 = 4;
 
     public boolean isDateInThePast(LocalDate localDate) {
         if (localDate.isBefore(LocalDate.now())) {
@@ -13,4 +15,6 @@ public class SomeClass1 {
         }
         return false;
     }
+
+    
 }
